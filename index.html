@@ -26,54 +26,62 @@
     </div>
 </header>-->
 <body>  
-    <div id="buscar">
+    <header>
+    </header>
+    <main>
+        <div id="buscar">
 
-    </div>
-    <div id="pokedex">
-        <h1>Pokedex</h1>
-        <img class="imanimation" src="./pokebola.png" alt="Pokemon" width="150px" id="pokeImg">
-        
-    </div>
-
-    <div id="pokedex-container">
-        <div id="pokedex-content">
-            <div id="pokedex-info">
-                <h2 id="pokeName">Nombre: </h2>
-                <h2 id="pokeId">ID: </h2>
-                <h2 id="pokeType">Tipo: </h2>
-                <h2 id="pokeHeight"> Altura: </h2>
-                <h2 id="pokeWeight">Peso: </h2>
-                <h2 id="pokeAbilities">Habilidades: </h2>
-                <h2 id="pokeStats">Status: </h2>
-                <h2 id="pokeMoves">Movimientos: </h2>
+        </div>
+        <div id="pokedex">
+            <h1>Pokedex</h1>
+            <img class="imanimation" src="./pokebola.png" alt="Pokemon" width="150px" id="pokeImg">
+            
+        </div>
+    
+        <div id="pokedex-container">
+            <div id="pokedex-content">
+                <div id="pokedex-info">
+                    <h2 id="pokeName">Nombre: </h2>
+                    <h2 id="pokeId">ID: </h2>
+                    <h2 id="pokeType">Tipo: </h2>
+                    <h2 id="pokeHeight"> Altura: </h2>
+                    <h2 id="pokeWeight">Peso: </h2>
+                    <h2 id="pokeAbilities">Habilidades: </h2>
+                    <h2 id="pokeStats">Status: </h2>
+                    <h2 id="pokeMoves">Movimientos: </h2>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <div class="circle">
-            <input type="search" id="search" placeholder="Buscar Pokemon por nombre o #" name="poketName">
+    
+        <div class="container">
+            <div class="circle">
+                <input type="search" id="search" placeholder="Buscar Pokemon por nombre o #" name="poketName">
+            </div>
+            <div class="circle-2">
+            </div>
+            <div class="center-1">
+            </div>
+            <div class="center-2">
+                <button class="button" type="submit" id="btn" onclick="fetchPokemon()">Buscar</button>
+            </div>
+            <div class="line"></div>
         </div>
-        <div class="circle-2">
+    
+        <div id="charts-container">
+            <div id="chart1"></div>
+            <div id="chart2"></div>
+            <div id="chart3"></div>
+            <div id="chart4"></div>
         </div>
-        <div class="center-1">
-        </div>
-        <div class="center-2">
-            <button class="button" type="submit" id="btn" onclick="fetchPokemon()">Buscar</button>
-        </div>
-        <div class="line"></div>
-    </div>
-
-    <div id="charts-container">
-        <div id="chart1"></div>
-        <div id="chart2"></div>
-        <div id="chart3"></div>
-        <div id="chart4"></div>
-    </div>
-
+    </main>
+    <div class="cont"></div>
     <footer>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
         <script src="./pokedex.js"></script>
+        <p>
+            Derechos de autor © 2023. Todos los derechos reservados.
+                <br>Hecho por Team5.
+        </p>
     </footer>
 </body>
 </html>
