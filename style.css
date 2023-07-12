@@ -8,10 +8,12 @@ footer{
   background-color: rgb(36, 32, 32);
   color: white;
   line-height: 1.5;
+  padding-bottom: 50px;
 }
 
 footer > p{
 text-align: center;
+
 }
 
 #pokedex {
