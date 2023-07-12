@@ -33,8 +33,8 @@ const fetchPokemon = () => {
           document.getElementById("pokeHeight").innerHTML = "Altura: " + pokeHeight;
           document.getElementById("pokeWeight").innerHTML = "Peso: " + pokeWeight;
           document.getElementById("pokeAbilities").innerHTML = "Habilidades: " + pokeAbilities;
-          document.getElementById("pokeStats").innerHTML = "Estadísticas:";
-          document.getElementById("pokeMoves").innerHTML = "Movimientos:";
+          document.getElementById("pokeStats").innerHTML;
+          document.getElementById("pokeMoves").innerHTML;
   
           createBarChart(pokeStats);
           createPieChart(data.types);
