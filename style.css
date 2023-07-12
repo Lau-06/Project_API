@@ -1,5 +1,17 @@
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   background-color: #8219bf;
+}
+footer{
+  background-color: rgb(36, 32, 32);
+  color: white;
+  line-height: 1.5;
+}
+
+footer > p{
+text-align: center;
 }
 
 #pokedex {
@@ -9,6 +21,9 @@ body {
   transform: translate(-30%, -30%);
 }
 
+.cont{
+  flex: 1;;
+}
 .chart-container {
   width: 300px;
   height: 300px;
